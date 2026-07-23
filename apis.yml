@@ -1,7 +1,26 @@
 aid: aria-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aria-pharmaceuticals.png
 name: Aria Pharmaceuticals
-description: Aria Pharmaceuticals is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aria Pharmaceuticals is a clinical-stage biopharmaceutical company that applies
+  artificial intelligence and machine learning to drug discovery, using a computational
+  platform to identify and advance small-molecule therapeutic candidates for complex,
+  inflammatory, and immunological diseases. Backed by Andreessen Horowitz (a16z), Aria
+  operates as a therapeutics developer rather than a software or API provider. It was
+  added to the API Evangelist network as a portfolio-company profile; an enrichment pass
+  found no public developer portal, API documentation, OpenAPI definition, SDKs, or other
+  programmatic developer surface for the company at this time.
 url: https://raw.githubusercontent.com/api-evangelist/aria-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Pharmaceuticals
+- Drug Discovery
+- Artificial Intelligence
+- Biotechnology
+- Healthcare
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://ariapharmaceuticals.com
+- type: DomainSecurity
+  url: security/aria-pharmaceuticals-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
